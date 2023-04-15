@@ -31,7 +31,7 @@ export function PintaPokemon(props) {
               return (
                 <div key={index} className="stats">
                   <p>{s.stat.name}</p>
-                  <p>{s.base_stat}</p>
+                  <p className="base_stat">{s.base_stat}</p>
                 </div>
               );
             })}

@@ -102,3 +102,7 @@ input:focus::-webkit-input-placeholder {
     width: 100%;
     justify-content: space-between;
 }
+
+.base_stat {
+    color: crimson;
+}
