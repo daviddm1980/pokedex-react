@@ -10,7 +10,7 @@ export function PeticionAPI() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      `https://pokeapi.co/api/v2/pokemon/${pokeNombre}`
+      `https://pokeapi.co/api/v2/pokemon/${pokeNombre.toLowerCase()}`
     );
     const data = await response.json();
     setPokeInfo(data);
