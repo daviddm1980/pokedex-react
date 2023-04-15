@@ -4,7 +4,7 @@ import { PeticionAPI } from "./components/PeticionAPI";
 function App() {
   return (
     <div className="container">
-      <h1>Pokedex</h1>
+      <h1>PokedeX</h1>
       <PeticionAPI />
     </div>
   );
