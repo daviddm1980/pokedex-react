@@ -21,13 +21,13 @@ export function PeticionAPI() {
     setPokeNombre(e.target.value);
   };
 
-  const formulario = () => {
-    return (
-      <form className="formulario" onSubmit={handleSubmit}>
-        <input type="text" value={pokeNombre} onChange={handleInput} />
-      </form>
-    );
-  };
+  // const formulario = () => {
+  //   return (
+  //     <form className="formulario" onSubmit={handleSubmit}>
+  //       <input type="text" value={pokeNombre} onChange={handleInput} />
+  //     </form>
+  //   );
+  // };
 
   return (
     <>
